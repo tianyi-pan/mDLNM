@@ -1,0 +1,30 @@
+Package: mDLNM
+Type: Package
+Title: Meta Package for Multiple Exposure Distributed Lag Non-linear Models (DLNM)
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Tianyi", "Pan",
+      email = "tianyi.pan@uwaterloo.ca",
+      role = c("aut", "cre")
+    )
+  )
+Description: A meta-package that supports: (1) Single-index adaptive cumulative exposure DLNM, 
+  (2) Additive adaptive cumulative exposure DLNM,
+  (3) Single-index distributed response function DLNM, and 
+  (4) Additive distributed response function DLNM. 
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+LazyData: true
+Depends:
+    SIaceDLNM,
+    aceDLNMadditive,
+    SIdrfDLNM,
+    drfDLNMadditive
+Remotes:
+    tianyi-pan/SIaceDLNM,
+    tianyi-pan/aceDLNMadditive,
+    tianyi-pan/SIdrfDLNM,
+    tianyi-pan/drfDLNMadditive
