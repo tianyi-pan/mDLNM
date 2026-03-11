@@ -7,5 +7,4 @@
 #' (4) additive distributed response function DLNM.
 #'
 #' @name mDLNM
-#' @useDynLib mDLNM, .registration = TRUE
 NULL
