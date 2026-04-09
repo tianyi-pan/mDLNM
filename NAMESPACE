@@ -2,3 +2,4 @@
 
 export(NCV)
 export(RateRatio)
+export(stacking_weights)
